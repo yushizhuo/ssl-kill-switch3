@@ -1,9 +1,123 @@
 {
 	Filter = {
 		Bundles = (
+
+			/* Apple Account / GSA */
+			"com.apple.identityservicesd",
+			"com.apple.akd",
+			"com.apple.accountsd",
 			"com.apple.AuthKit",
+			"com.apple.CoreAuthentication.daemon",
+			"com.apple.AppleCredentialManagerDaemon",
+
+			/* Security */
+			"com.apple.Security",
+			"com.apple.securityd",
+			"com.apple.keystore.sik.access",
+			"com.apple.security.attestation.access",
+			"com.apple.Foundation",
+
+			/* Preferences / UI */
+			"com.apple.Preferences",
 			"com.apple.UIKit",
+			"com.apple.springboard",
+
+			/* Network */
+			"com.apple.nsurlsessiond",
+			"com.apple.networkd",
+			"com.apple.nehelper",
+			"com.apple.wifid",
+			"com.apple.nesessionmanager",
+			"com.apple.SystemConfiguration",
+
+			/* Device Identity / Activation */
+			"com.apple.DeviceIdentity",
+			"DeviceIdentity",
+			"com.apple.MobileActivation",
+			"com.apple.purplebuddy",
+
+			/* App Store / AMS */
+			"com.apple.AppStore",
+			"com.apple.appstored",
 			"com.apple.itunesstored",
+			"com.apple.itunescloudd",
+			"com.apple.StoreServices",
+			"com.apple.StoreKit",
+			"com.apple.ios.StoreKitUIService",
+			"com.apple.AppleMediaServices",
+			"com.apple.amsaccountsd",
+			"com.apple.storebookkeeperd",
+
+			/* Push / Message */
+			"com.apple.apsd",
+			"com.apple.FTServices",
+			"com.apple.ids.IDSCredentialsAgent",
+			"com.apple.imdpersistence.IMDPersistenceAgent",
+
+			/* Safari / Web */
+			"com.apple.mobilesafari",
+			"com.apple.WebKit",
+			"com.apple.WebSheet",
+			"com.apple.webapp",
+			"com.apple.Safari.SafeBrowsing.Service",
+			"com.apple.SafariBookmarksSyncAgent",
+			"com.apple.SafariCloudHistoryPushAgent",
+			"com.apple.safarifetcherd",
+
+			/* System Services */
+			"com.apple.lsd",
+			"com.apple.ind",
+			"com.apple.ptpd",
+			"com.apple.atc",
+			"com.apple.sbd",
+			"com.apple.assistant_service",
+			"com.apple.subridged",
+
+			/* Hardware / IOKit */
+			"com.apple.framework.IOKit",
+			"com.apple.IOKit",
+			"com.apple.IOAccelMemoryInfoCollector",
+			"com.apple.instruments.deviceservice",
+
+			/* Telephony */
+			"com.apple.CoreTelephony",
+			"com.apple.CommCenterRootHelper",
+			"com.apple.CommCenterMobileHelper",
+
+			/* Media */
+			"com.apple.bird",
+			"com.apple.medialibraryd",
+			"com.apple.mediaserverd",
+			"com.apple.mediaremoted",
+			"com.apple.mediaartworkd",
+			"com.apple.midiserver",
+			"com.apple.fairplayd.H2",
+
+			/* iCloud / Find My */
+			"com.apple.icloud.FindMyDevice.FindMyDeviceHelperXPCService",
+			"com.apple.FindMyDeviceIdentityXPCService",
+			"com.apple.icloud.findmydeviced",
+			"com.apple.icloud.fmfd",
+			"com.apple.icloud.fmflocatord",
+
+			/* Installation */
+			"com.apple.MobileInstallationHelperService",
+			"com.apple.mobilestoredemod",
+			"com.apple.mobilestoredemodhelper",
+			"com.apple.MobileBackup.MBHelperService",
+			"com.apple.mobile.storage_mounter",
+			"com.apple.MobileAccessoryUpdater",
+			"com.apple.afcd",
+
+			/* Other Apple Services */
+			"com.apple.adid",
+			"com.apple.adid.midchangedV1.5",
+			"com.apple.idamd",
+			"com.apple.iapd",
+			"com.apple.absd",
+			"com.apple.CoreRoutine.helperservice",
+			"com.apple.AXMediaUtilitiesService"
+
 		);
 	};
 }
