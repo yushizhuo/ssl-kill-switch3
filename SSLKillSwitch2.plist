@@ -2,17 +2,21 @@
 	Filter = {
 		Bundles = (
 
-			/* Apple Account / GSA */
-			"com.apple.identityservicesd",
+			/* Apple Account / GSA / Auth */
 			"com.apple.akd",
+			"com.apple.identityservicesd",
 			"com.apple.accountsd",
 			"com.apple.AuthKit",
 			"com.apple.CoreAuthentication.daemon",
 			"com.apple.AppleCredentialManagerDaemon",
+			"com.apple.ids.IDSCredentialsAgent",
 
-			/* Security */
+			/* Security / Trust */
 			"com.apple.Security",
 			"com.apple.securityd",
+			"com.apple.trustd",
+			"com.apple.trustdFileHelper",
+			"com.apple.ocspd",
 			"com.apple.keystore.sik.access",
 			"com.apple.security.attestation.access",
 			"com.apple.Foundation",
@@ -22,7 +26,7 @@
 			"com.apple.UIKit",
 			"com.apple.springboard",
 
-			/* Network */
+			/* Network Stack */
 			"com.apple.nsurlsessiond",
 			"com.apple.networkd",
 			"com.apple.nehelper",
@@ -48,13 +52,13 @@
 			"com.apple.amsaccountsd",
 			"com.apple.storebookkeeperd",
 
-			/* Push / Message */
+			/* Push / Messages */
 			"com.apple.apsd",
 			"com.apple.FTServices",
-			"com.apple.ids.IDSCredentialsAgent",
 			"com.apple.imdpersistence.IMDPersistenceAgent",
+			"com.apple.madrid",
 
-			/* Safari / Web */
+			/* Safari / WebKit */
 			"com.apple.mobilesafari",
 			"com.apple.WebKit",
 			"com.apple.WebSheet",
@@ -72,6 +76,9 @@
 			"com.apple.sbd",
 			"com.apple.assistant_service",
 			"com.apple.subridged",
+			"com.apple.revisiond",
+			"com.apple.mobileassetd",
+			"com.apple.MobileAssetService",
 
 			/* Hardware / IOKit */
 			"com.apple.framework.IOKit",
@@ -84,7 +91,7 @@
 			"com.apple.CommCenterRootHelper",
 			"com.apple.CommCenterMobileHelper",
 
-			/* Media */
+			/* Media / DRM */
 			"com.apple.bird",
 			"com.apple.medialibraryd",
 			"com.apple.mediaserverd",
@@ -100,7 +107,7 @@
 			"com.apple.icloud.fmfd",
 			"com.apple.icloud.fmflocatord",
 
-			/* Installation */
+			/* Installation / Storage */
 			"com.apple.MobileInstallationHelperService",
 			"com.apple.mobilestoredemod",
 			"com.apple.mobilestoredemodhelper",
@@ -109,6 +116,9 @@
 			"com.apple.MobileAccessoryUpdater",
 			"com.apple.afcd",
 
+			/* Notes / Data */
+			"com.apple.mobilenotes.datastore",
+
 			/* Other Apple Services */
 			"com.apple.adid",
 			"com.apple.adid.midchangedV1.5",
@@ -116,7 +126,9 @@
 			"com.apple.iapd",
 			"com.apple.absd",
 			"com.apple.CoreRoutine.helperservice",
-			"com.apple.AXMediaUtilitiesService"
+			"com.apple.AXMediaUtilitiesService",
+			"com.apple.CommCenterRootHelper",
+			"com.apple.mobile.storage_mounter"
 
 		);
 	};
